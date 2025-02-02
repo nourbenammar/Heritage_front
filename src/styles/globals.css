@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 210 40% 98%;
+        --stone-pattern: url('/assets/stone-texture.png');
+        --parchment-pattern: url('/assets/parchment-texture.png');
+    }
+
+    .dark {
+        --background: 20 14% 4%;
+    }
+}
+
+@layer components {
+    .ancient-scroll {
+        background-image: var(--parchment-pattern);
+        @apply rounded-lg shadow-lg border-2 border-amber-900/20;
+    }
+
+    .stone-tablet {
+        background-image: var(--stone-pattern);
+        @apply rounded-lg shadow-xl border border-slate-800/50;
+    }
+
+    .roman-column {
+        @apply relative before:absolute before:inset-0 before:bg-gradient-to-b before:from-slate-200 before:to-slate-300 before:opacity-20;
+    }
+}

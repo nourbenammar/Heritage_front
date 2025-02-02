@@ -1,0 +1,13 @@
+{
+  "/(features)/chat/page": "app/(features)/chat/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(features)/market-store/page": "app/(features)/market-store/page.js",
+  "/(features)/heritage-hunt/page": "app/(features)/heritage-hunt/page.js",
+  "/(features)/colorization/page": "app/(features)/colorization/page.js",
+  "/(features)/reconstruction/page": "app/(features)/reconstruction/page.js",
+  "/(features)/movie-generation/page": "app/(features)/movie-generation/page.js",
+  "/page": "app/page.js",
+  "/(features)/virtual-museum/page": "app/(features)/virtual-museum/page.js",
+  "/api/artguru/route": "app/api/artguru/route.js"
+}
